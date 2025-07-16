@@ -9,13 +9,13 @@ public class add {
         int num1 = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
-        int num5 = scanner.nextInt();
+        int num11 = scanner.nextInt();
 
         // Calculate the sum
-        int sum = num1 + num5;
+        int sum = num1 + num11;
 
         // Display the result
-        System.out.println("The sum of " + num1 + " and " + num5 + " is: " + sum);
+        System.out.println("The sum of " + num1 + " and " + num11 + " is: " + sum);
 
         scanner.close();
     }
