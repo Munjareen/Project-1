@@ -9,13 +9,19 @@ public class add {
         int num1 = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
-        int num10 = scanner.nextInt();
+
+        int num20 = scanner.nextInt();
 
         // Calculate the sum
-        int sum = num1 + num10;
+        int sum = num1 + num20;
 
         // Display the result
-        System.out.println("The sum of " + num1 + " and " + num10 + " is: " + sum);
+        System.out.println("The sum of " + num1 + " and " + num20 + " is: " + sum);
+
+        
+
+       
+
 
         scanner.close();
     }
